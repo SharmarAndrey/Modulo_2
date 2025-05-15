@@ -107,6 +107,11 @@ text-shadow: #ffff00 1px 0 10px;
 	
 </form>
 
+<form action="upload.php" method="POST" enctype="multipart/form-data">
+	<input type="file" name="archivo" id="archivo">
+	<input type="submit" value="Subir " id="submit">
+</form>
+
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 	
@@ -124,6 +129,14 @@ else {
 	}
 
 } 
+
+if (isset($_FILES["archivo"])) $imageName =$_FILES["archivo"]["name"];
+if(move_uploaded_file($_FILES["archivo"]["tmp_name"], $imageName)) {
+echo "<h1>Genial!</h1>";
+}else {
+	echo "<p>No se ha podido subir el archivo</p>";
+}
+
 	?>
 	</div>
 </body>

@@ -28,7 +28,7 @@ if (isset($_FILES['archivo']) && $_FILES['archivo']['error'] === UPLOAD_ERR_OK) 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Профиль пользователя</title>
+  <title>User profile</title>
   <style>
     body {
       font-family: Arial, sans-serif;

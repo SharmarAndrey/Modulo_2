@@ -4,8 +4,8 @@
        <input type="submit">
    </form>
    <?php
-   switch ($_SERVER['REQUEST_METHOD'])  {
-	case 'POST': ?>
+   switch ($_SERVER['REQUEST_METHOD']) {
+       case 'POST': ?>
      Welcome
 Your name is:
      <?php echo $_POST["name"] ?><br>
@@ -13,10 +13,10 @@ Your name is:
      <?php echo $_POST["email"]; ?>
    <?php
    break;
-   default:
-   
-       echo "Cubre el formulario";
-	   break;
+       default:
+
+           echo "Cubre el formulario";
+           break;
    }
 
    ?>

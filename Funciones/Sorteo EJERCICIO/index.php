@@ -5,7 +5,8 @@ $participantes = ["Ana", "Luis", "Pedro", "María", "Jorge", "Lucía", "Sofía",
 
 $cantidad_premios = 3;
 
-function obtenerGanadores($cantidad_premios, $participantes) {
+function obtenerGanadores($cantidad_premios, $participantes)
+{
     $ganadores = [];
 
     while (count($ganadores) < $cantidad_premios) {
@@ -15,7 +16,7 @@ function obtenerGanadores($cantidad_premios, $participantes) {
         }
     }
 
-    sort($ganadores); 
+    sort($ganadores);
     return $ganadores;
 }
 
@@ -28,4 +29,3 @@ foreach ($indices_ganadores as $indice) {
     echo "<li>" . $participantes[$indice] . "</li>";
 }
 echo "</ol>";
-?>

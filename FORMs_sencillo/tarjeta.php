@@ -7,12 +7,12 @@ if (isset($_FILES['archivo']) && $_FILES['archivo']['error'] === UPLOAD_ERR_OK) 
     $destPath = $uploadFileDir . $fileName;
 
 
- 
+
     if (!is_dir($uploadFileDir)) {
         mkdir($uploadFileDir, 0755, true);
     }
 
- 
+
     if (move_uploaded_file($fileTmpPath, $destPath)) {
         $imageUrl = $destPath;
     } else {

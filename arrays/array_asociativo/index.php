@@ -1,4 +1,5 @@
 <?php
+
 $agenda = array(
     "contacto1" => array(
         "nombre" => "Ana Pérez",

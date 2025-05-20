@@ -1,4 +1,5 @@
 <?php
+
 $laberinto = array(
     array("#", "#", "#", "#", "#"),
     array("#", ".", ".", ".", "#"),
@@ -18,4 +19,3 @@ foreach ($laberinto as $fila) {
 }
 
 echo " <h1 style = 'text-align: center;'> Numero de puntos en el laberinto: $contador</h1>";
-?>

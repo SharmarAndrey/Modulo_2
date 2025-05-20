@@ -7,14 +7,14 @@
 </head>
 <body>
 <?php
-	//Variables
-	$nombre = "Andrii";
-	$apellido = "Sharmar";
-	$edad = 42;
+    //Variables
+    $nombre = "Andrii";
+$apellido = "Sharmar";
+$edad = 42;
 $ciudad_natal = "Jarkov (Ucrania) ";
 
 
-	echo "Mi nombre es $nombre $apellido y tengo $edad años. Naci en $ciudad_natal";
+echo "Mi nombre es $nombre $apellido y tengo $edad años. Naci en $ciudad_natal";
 ?>	
 
 

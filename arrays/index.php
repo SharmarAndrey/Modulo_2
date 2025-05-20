@@ -6,7 +6,7 @@
 	<title>Document</title>
 </head>
 <body>
-<?php 
+<?php
 $estudiantes = array(
     array(
         "nombre" => "Juan",
@@ -40,7 +40,7 @@ echo "La segunda nota de Carlos es: " . $estudiantes[2]["notas"][1] . "<br>";
 
 
 echo "<h2>Nombres de todos los estudiantes</h2>";
-foreach($estudiantes as $estudiante) {
+foreach ($estudiantes as $estudiante) {
     echo $estudiante["nombre"] . "<br>";
 }
 

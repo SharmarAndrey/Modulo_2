@@ -1,5 +1,7 @@
 <?php
-function saludar($nombre, $hora) {
+
+function saludar($nombre, $hora)
+{
     if ($hora < 12) {
         echo "Buenos días, $nombre! Ahora son $hora horas.";
     } elseif ($hora < 20) {
@@ -10,8 +12,8 @@ function saludar($nombre, $hora) {
 }
 
 
-saludar("Lucía", 9);  
+saludar("Lucía", 9);
 echo "<br>";
-saludar("Pedro", 15);  
+saludar("Pedro", 15);
 echo "<br>";
-saludar("Ana", 21);    
+saludar("Ana", 21);

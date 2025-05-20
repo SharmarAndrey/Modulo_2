@@ -8,12 +8,12 @@
 <body>
 	<?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    
+
     $nombre = $_POST["nombre"] ?? "";
-    $edad =$_POST["edad"] ?? "";
-    $email =$_POST["email"] ?? "";
-    $curso =$_POST["curso"] ?? "";
-    $genero =$_POST["genero"] ?? "";
+    $edad = $_POST["edad"] ?? "";
+    $email = $_POST["email"] ?? "";
+    $curso = $_POST["curso"] ?? "";
+    $genero = $_POST["genero"] ?? "";
 
     echo "<h2>Datos recibidos:</h2>";
     echo "Nombre: $nombre<br>";

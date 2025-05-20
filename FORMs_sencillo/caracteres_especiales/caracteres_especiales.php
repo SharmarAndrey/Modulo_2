@@ -1,9 +1,11 @@
-<?php 
-function validator($data){
-	$data =  trim($data);
-	$data = stripslashes($data);
-	$data = htmlspecialchars($data);
-	return $data;
+<?php
+
+function validator($data)
+{
+    $data =  trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
 }
 
 $nombre = validator($_POST["name"]);

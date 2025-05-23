@@ -80,14 +80,23 @@
 <body>
 
 <?php
+// Archivo para guardar los concursantes
 $archivo = __DIR__ . "/concursantes.txt";
 $mensaje = "";
+
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST["nombre"])) {
     $nombre = htmlspecialchars(trim($_POST["nombre"]));
     file_put_contents($archivo, $nombre . PHP_EOL, FILE_APPEND);
+
     $mensaje = "✔️ Concursante '$nombre' registrado correctamente.";
+} elseif ($_SERVER["REQUEST_METHOD"] == "GET" && !isset($_GET["noeliminar"])) {
+
+    //  unlink($archivo);
+    file_put_contents($archivo, "");
 }
+
+
 ?>
 
 <div class="card">

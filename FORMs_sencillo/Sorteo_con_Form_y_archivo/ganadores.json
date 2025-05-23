@@ -1,0 +1,54 @@
+[
+    {
+        "numero": 1,
+        "fecha": "2025-05-21 16:02:55",
+        "ganadores": [
+            "Victor"
+        ]
+    },
+    {
+        "numero": 2,
+        "fecha": "2025-05-21 16:13:45",
+        "ganadores": [
+            "Victor"
+        ]
+    },
+    {
+        "numero": 3,
+        "fecha": "2025-05-21 16:14:08",
+        "ganadores": [
+            "Carlos"
+        ]
+    },
+    {
+        "numero de sorteo": 4,
+        "fecha": "2025-05-21 18:57:36",
+        "ganadores": [
+            "Roberto"
+        ]
+    },
+    {
+        "numero de sorteo": 5,
+        "fecha": "2025-05-21 19:03:33",
+        "ganadores": [
+            "Olga",
+            "Jose"
+        ]
+    },
+    {
+        "numero de sorteo": 6,
+        "fecha": "2025-05-21 19:05:27",
+        "ganadores": [
+            "Zakhar",
+            "OlgaJoseSergey"
+        ]
+    },
+    {
+        "numero de sorteo": 7,
+        "fecha": "2025-05-21 19:06:39",
+        "ganadores": [
+            "Joseppe",
+            "Vladimir"
+        ]
+    }
+]

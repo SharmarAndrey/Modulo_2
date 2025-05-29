@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario de Persona</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form action="procesar.php" method="POST" class="formulario">
+      <h2>Datos de la Persona</h2>
+      <input type="text" name="nombre" placeholder="Nombre completo" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="text" name="empleo" placeholder="Empleo" required />
+      <input type="text" name="titulacion" placeholder="Titulación" required />
+      <textarea
+        name="comentario"
+        placeholder="Comentario personal"
+        required
+      ></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
